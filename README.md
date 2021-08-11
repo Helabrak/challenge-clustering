@@ -2,9 +2,15 @@
 
 ## Mission objectives
 
-Our team was hired to make an automated bearing testing system and was asked to make a model to use in a scheduled maintenance system. A sample of the bearings in use of their new-fangled machine would be tested, and your model would predict whether a bearing is faulty or not.
+Your boss was happy with your previous work on the bearing analysis, guessing faulty bearings was a piece of cake for you! The team came back to you for further expertise; They want to know what type of failures occur! Or rather, if the failures exhibit similarities to other failures. This is a perfect clustering challenge.
 
-We'll implement different classification algorithms in Python and choose the most appropriate algorithm.
+The steps to do so the following was implemented:
+    gathering of features (5+) of failed bearing dataset
+    kmeans clustering of at least two features of the failed bearings
+    visualization of said clustering
+    evaluation of the silhouette score of your clustering method
+    extension (one-by-one) to 6 features. (how does the silhouette score evolve?)
+    vizualizations of your model evaluation
 
 ![](/Visuals/bearing_explanation.jpeg)
 
