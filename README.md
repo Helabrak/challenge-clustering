@@ -32,8 +32,8 @@ To do so I tried implementing the following :
 # Usage
 | Filename                             | Usage                                                     |
 |--------------------------------------|-----------------------------------------------------------|
-| notebook_final.ipynb | Jupyer Notebook file containing Python code.<br>Used to clean the data.<br>Used to draw plots and do preliminary analysis. <br>Used to create our prediction model.|
-| Visuals | Folder containing visuals.|
+| notebook_final.ipynb | Jupyer Notebook file containing Python code.<br>Used to clean the data.<br>Used to draw plots and do preliminary analysis. 
+
 
 # Visualization
 Clustering heatmap with hz_mean for each bearing: 
