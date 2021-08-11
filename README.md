@@ -4,7 +4,7 @@
 
 Your boss was happy with your previous work on the bearing analysis, guessing faulty bearings was a piece of cake for you! The team came back to you for further expertise; They want to know what type of failures occur! Or rather, if the failures exhibit similarities to other failures. This is a perfect clustering challenge.
 
-The steps to do so the following was implemented:
+To do so I tried implementing the following :
     gathering of features (5+) of failed bearing dataset
     kmeans clustering of at least two features of the failed bearings
     visualization of said clustering
@@ -35,7 +35,8 @@ The steps to do so the following was implemented:
 | notebook_final.ipynb | Jupyer Notebook file containing Python code.<br>Used to clean the data.<br>Used to draw plots and do preliminary analysis. <br>Used to create our prediction model.|
 | Visuals | Folder containing visuals.|
 
-# Visualization 
+# Visualization
+Clustering heatmap with hz_mean for each bearing: 
 ![image](https://user-images.githubusercontent.com/84380899/129030482-356470e4-bf82-45cc-b053-9e12a625e885.png)
 
 
