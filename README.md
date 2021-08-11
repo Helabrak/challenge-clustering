@@ -17,7 +17,7 @@ The steps to do so the following was implemented:
 # Installation
 
 ## Python version
-* Python 3.9
+* Python 3.8
 
 ## Packages used
 
@@ -26,7 +26,8 @@ The steps to do so the following was implemented:
 * matplotlib.pyplot
 * seaborn
 * plotly.express
-* scipy
+* sklearn.preprocessing 
+* sklearn.cluster import KMeans
 
 # Usage
 | Filename                             | Usage                                                     |
@@ -128,10 +129,8 @@ KNeighbors Classifier's AOC
 | Name           | GitHub                                                                              |
 |----------------|-------------------------------------------------------------------------------------|
 | Heba Elebrak | <a href="https://github.com/Helabrak">https://github.com/Helabrak               |
-| Leonord Drummond  | <a href="https://github.com/ltadrummond">https://github.com/ltadrummond
-| Michel Ombessa  | <a href="https://github.com/mdifils">https://github.com/mdifils    |
-| Logan Vendrix  | <a href="https://github.com/lvendrix">https://github.com/lvendrix    |
+
 
 
 # Timeline
-29/07/2021 - 03/08/2021
+09/08/2021 - 11/08/2021
