@@ -46,6 +46,7 @@ To do so I tried implementing the following :
 
 5. #Visulaize (Evaluation for test scores): 
 ![image](https://user-images.githubusercontent.com/84380899/129048127-4cecae81-7df6-435f-b2bf-454a774568f4.png)
+![image](https://user-images.githubusercontent.com/84380899/129048248-be6923bd-74ff-4046-a3ce-66e711bd34e4.png)
 
 
 # Generating the sample data from make_blobs
