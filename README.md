@@ -35,20 +35,11 @@ The steps to do so the following was implemented:
 | notebook_final.ipynb | Jupyer Notebook file containing Python code.<br>Used to clean the data.<br>Used to draw plots and do preliminary analysis. <br>Used to create our prediction model.|
 | Visuals | Folder containing visuals.|
 
-# Data exploration
-![](/Visuals/visual_mean_status_distribution.png)<br>
-The distribution of defective and good bearings is unbalanced: Out of 112 bearing, 100 are defective and 12 are good ones.
-![](/Visuals/visual_mean_a1_x.png)<br>
-By using the mean of every acceleration for each bearing, we can already identify a pattern using a1_x. Good bearings (1) have generally a higher a1_x than defectives ones (0).
-![](/Visuals/visual_mean_a1_z.png)
-By using the mean of every acceleration for each bearing, we can already identify a pattern using a1_z. Good bearings (1) have generally a higher a1_z than defectives ones (0).
-![](/Visuals/visual_vibration_a1_x_105.png)<br>
-Vibration of a1_x over time of bearing_id 105
-![](/Visuals/visual_hz_16.png)
-Hz over time of bearing_id 16
+# Visualization 
+![image](https://user-images.githubusercontent.com/84380899/129030482-356470e4-bf82-45cc-b053-9e12a625e885.png)
 
-# Feature engineering
-To help the model make predictions, we created new features. In total, we have 54 features:
+
+# Selected Features: 
 - a1_x_mean
 - a1_y_mean 
 - a1_z_mean 
