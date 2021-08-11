@@ -25,21 +25,21 @@ To do so I tried implementing the following :
 * numpy
 * matplotlib.pyplot
 * seaborn
-* plotly.express
 * sklearn.preprocessing 
 * sklearn.cluster import KMeans
 
 # Usage
 | Filename                             | Usage                                                     |
 |--------------------------------------|-----------------------------------------------------------|
-| notebook_final.ipynb | Jupyer Notebook file containing Python code.<br>Used to clean the data.<br>Used to draw plots and do preliminary analysis. 
+| clustering.ipynb | Jupyer Notebook file containing Python code.<br>Used to clean the data.<br>Used to draw plots and do preliminary analysis. 
 
 
 # Visualization
-Clustering heatmap with hz_mean for each bearing: 
+1- Clustering heatmap with hz_mean for each bearing: 
 ![image](https://user-images.githubusercontent.com/84380899/129030482-356470e4-bf82-45cc-b053-9e12a625e885.png)
 
-
+2. kmeans clustering:
+3. 
 # Selected Features: 
 - a1_x_mean
 - a1_y_mean 
