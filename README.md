@@ -45,7 +45,8 @@ To do so I tried implementing the following :
 
 
 5. #Visulaize (Evaluation for test scores): 
-6.
+![image](https://user-images.githubusercontent.com/84380899/129048127-4cecae81-7df6-435f-b2bf-454a774568f4.png)
+
 
 # Generating the sample data from make_blobs
 # This particular setting has one distinct cluster and 3 clusters placed close together.
@@ -84,7 +85,14 @@ To do so I tried implementing the following :
 
 # Draw white circles at cluster centers
 
+Silhouette scores : 
 
+Automatically created module for IPython interactive environment
+For n_clusters = 2 The average silhouette_score is : 0.7049787496083262
+For n_clusters = 3 The average silhouette_score is : 0.5882004012129721
+For n_clusters = 4 The average silhouette_score is : 0.6505186632729437
+For n_clusters = 5 The average silhouette_score is : 0.56376469026194
+For n_clusters = 6 The average silhouette_score is : 0.4504666294372765
 
 # Contributors
 | Name           | GitHub                                                                              |
