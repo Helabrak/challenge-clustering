@@ -38,89 +38,59 @@ To do so I tried implementing the following :
 1- Clustering heatmap with hz_mean for each bearing: 
 ![image](https://user-images.githubusercontent.com/84380899/129030482-356470e4-bf82-45cc-b053-9e12a625e885.png)
 
-2. kmeans clustering:
-3. 
-# Selected Features: 
-- a1_x_mean
-- a1_y_mean 
-- a1_z_mean 
-- a2_x_mean 
-- a2_y_mean
-- a2_z_mean
-- rpm_mean
-- hz_mean
-- w_mean
-- a1_x_range
-- a1_y_range
-- a1_z_range
-- a2_x_range
-- a2_y_range
-- a2_z_range
-- w_range
-- a1_x_min
-- a1_y_min
-- a1_z_min
-- a2_x_min
-- a2_y_min
-- a2_z_min
-- a1_x_max
-- a1_y_max
-- a1_z_max
-- a2_x_max
-- a2_y_max
-- a2_z_max
-- w_max
-- a1_x_fft_mean
-- a1_y_fft_mean
-- a1_z_fft_mean
-- a2_x_fft_mean
-- a2_y_fft_mean
-- a2_z_fft_mean
-- a1_x_ff_range
-- a1_y_fft_range
-- a1_z_fft_range
-- a2_x_fft_range
-- a2_y_fft_range
-- a2_z_fft_range
-- a1_x_fft_min
-- a1_y_fft_min
-- a1_z_fft_min
-- a2_x_fft_min
-- a2_y_fft_min
-- a2_z_fft_min
-- a1_x_fft_max
-- a1_y_fft_max
-- a1_z_fft_max
-- a2_x_fft_max
-- a2_y_fft_max
-- a2_z_fft_max
-- status
 
-# Machine learning
-The target variable: status (1 = Good, 0 = Defective).<br>
-We tested 3 models, all of them had high performance:
-- Random Forest
-- SVC 
-- KNN
+3. example of Silhouette methods to chose the best features
+![image](https://user-images.githubusercontent.com/84380899/129045602-e7b2c0cd-c3c0-462a-b860-a14d2c3cc980.png)
+![image](https://user-images.githubusercontent.com/84380899/129046469-5f660b05-95b6-4c1c-b651-1aebb5e44d28.png)
 
-| Model         | Accuracy | Precision   | Recall      | 
-| --------------| -------- | ----------- |-------------|
-| Random Forest | 0.91     | 1.00 & 0.25 | 0.91 & 1.00 |
-| SVC           | 1.00     | 1.00 & 1.00 | 1.00 & 1.00 |
-| KNN           | 1.00     | 1.00 & 1.00 | 1.00 & 1.00 |
 
-In the end, we can see that either the SVC or KNN models are the best performer with perfect scores of 1.00.
-We choose KNeighbors as our model and made further analysis/visuals about its performance.
+5. #Visulaize (Evaluation for test scores): 
+6.
 
-KNeighbors Classifier's confusion matrix
-![](/Visuals/visual_confusion_matrix.png)<br>
-KNeighbors Classifier's AOC
-![](/Visuals/visual_AOC.png)
+# Generating the sample data from make_blobs
+# This particular setting has one distinct cluster and 3 clusters placed close together.
+# Create a subplot with 1 row and 2 columns
+# The 1st subplot is the silhouette plot
+# The silhouette coefficient can range from -1, 1 but in this example all
+# lie within [-0.1, 1]
+    
+# The (n_clusters+1)*10 is for inserting blank space between silhouette
+# plots of individual clusters, to demarcate them clearly.
+   
+
+# Initialize the clusterer with n_clusters value and a random generator
+# seed of 10 for reproducibility.
+   
+
+# The silhouette_score gives the average value for all the samples.
+# This gives a perspective into the density and separation of the formed
+# clusters
+    
+# Compute the silhouette scores for each sample
+  
+# Aggregate the silhouette scores for samples belonging to
+# cluster i, and sort them
+    
+# Label the silhouette plots with their cluster numbers at the middle
+
+# Compute the new y_lower for next plot
+
+
+# The vertical line for average silhouette score of all the values
+
+# 2nd Plot showing the actual clusters formed
+
+# Labeling the clusters
+
+# Draw white circles at cluster centers
+
+
 
 # Contributors
 | Name           | GitHub                                                                              |
 |----------------|-------------------------------------------------------------------------------------|
 | Heba Elebrak | <a href="https://github.com/Helabrak">https://github.com/Helabrak               |
+   
 
 
 
