@@ -48,7 +48,6 @@ To do so I tried implementing the following :
 ![image](https://user-images.githubusercontent.com/84380899/129048127-4cecae81-7df6-435f-b2bf-454a774568f4.png)
 ![image](https://user-images.githubusercontent.com/84380899/129048248-be6923bd-74ff-4046-a3ce-66e711bd34e4.png)
 
-
 # Generating the sample data from make_blobs
 # This particular setting has one distinct cluster and 3 clusters placed close together.
 # Create a subplot with 1 row and 2 columns
